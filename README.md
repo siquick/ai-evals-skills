@@ -14,17 +14,13 @@ The audit isn't a complete solution, but it will catch common problems we've see
 
 ## Installation
 
-Tell your AI agent to install the skills from this repo. In Claude Code:
-
-> Install the eval skills plugin from hamelsmu/evals-skills
-
-Or install manually:
+In Claude Code, run these two commands:
 
 ```bash
-# Add the marketplace
+# Step 1: Register the plugin repository
 /plugin marketplace add hamelsmu/evals-skills
 
-# Install the plugin
+# Step 2: Install the plugin
 /plugin install evals-skills@hamelsmu-evals-skills
 ```
 
@@ -33,6 +29,8 @@ To upgrade:
 ```bash
 /plugin update evals-skills@hamelsmu-evals-skills
 ```
+
+After installation, restart Claude Code. The skills will appear as `/evals-skills:<skill-name>`.
 
 ## Available Skills
 
