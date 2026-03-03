@@ -6,7 +6,7 @@ These skills guard against common mistakes I've seen helping 50+ companies and t
 
 ## New to Evals? Start Here
 
-If you are new to evals or aren't a student in our course, start with the `eval-audit` skill. Give your coding agent these instructions:
+If you are new to evals, start with the `eval-audit` skill. Give your coding agent these instructions:
 
 > Install the eval skills plugin from https://github.com/hamelsmu/evals-skills, then run /evals-skills:eval-audit on my eval pipeline. Investigate each diagnostic area using a separate subagent in parallel, then synthesize the findings into a single report. Use other skills in the plugin as recommended by the audit.
 
@@ -50,7 +50,7 @@ Invoke a skill with `/evals-skills:skill-name`, e.g., `/evals-skills:error-analy
 
 These skills are a starting point and only encode common mistakes that generalize across projects. Skills grounded in your stack, your domain, and your data will outperform them. Start here, then write your own.
 
-The [meta-skill](meta-skill.md) can help you ground custom skills. It works best alongside the context provided in the course.
+The [meta-skill](meta-skill.md) can help you ground custom skills. 
 
 ## Beyond These Skills
 
